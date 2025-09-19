@@ -1,0 +1,17 @@
+public class JunkCar {
+   public static void main(String[] args) {
+      SportsCar park = new SportsCar();
+      Arper drive = new Arper();
+      Arper reverse = new Arper();
+      
+      drive.setGas("Forward");
+      drive.setBrake("Right");
+      park.setShield(drive);
+
+      reverse.setGas("Backward");
+      reverse.setBrake("Left");
+      park.setTrunk(reverse);
+
+      park.print();
+   }
+}
