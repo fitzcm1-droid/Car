@@ -1,8 +1,8 @@
 public class JunkCar {
    public static void main(String[] args) {
       SportsCar park = new SportsCar();
-      Arper drive = new Arper();
-      Arper reverse = new Arper();
+      Car drive = new Car();
+      Car reverse = new Car();
       
       drive.setGas("Forward");
       drive.setBrake("Right");
