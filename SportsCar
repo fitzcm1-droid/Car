@@ -1,0 +1,28 @@
+public class SportsCar {
+   private Arper shield;
+   private Arper trunk;
+   
+   public void setShield(Arper arper) {
+      shield = arper;
+   }
+   
+   public void setTrunk(Arper arper) {
+      trunk = arper;
+   }
+   
+   public Arper getShield() {
+      return shield;
+   }
+   
+   public Arper getTrunk() {
+      return trunk;
+   }
+   
+   public void print() {
+      shield.print();
+      System.out.println();
+      
+      trunk.print();
+      System.out.println();
+   }
+}
