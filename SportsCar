@@ -1,20 +1,20 @@
 public class SportsCar {
-   private Arper shield;
-   private Arper trunk;
+   private Car shield;
+   private Car trunk;
    
-   public void setShield(Arper arper) {
-      shield = arper;
+   public void setShield(Car car) {
+      shield = car;
    }
    
-   public void setTrunk(Arper arper) {
-      trunk = arper;
+   public void setTrunk(Car car) {
+      trunk = car;
    }
    
-   public Arper getShield() {
+   public Car getShield() {
       return shield;
    }
    
-   public Arper getTrunk() {
+   public Car getTrunk() {
       return trunk;
    }
    
